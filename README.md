@@ -40,7 +40,7 @@ Either way, make sure you have the following file structure in the repository be
 ```
 
 ## Parquet File Conversion & Creating Tables
-Since we're dealing with parquet files, we need to convert them into files that SQL databases support. In Python, I decided to read in parquet files with [pyarrow]() package and convert them into [Pandas Dataframes]. With the dataframes, it can be written into any SQL database with built-in function.
+Since we're dealing with parquet files, we need to convert them into files that SQL databases support. In Python, I decided to read in parquet files with [pyarrow](https://arrow.apache.org/docs/python/index.html) package and convert them into [Pandas Dataframes](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html). With the dataframes, it can be written into any SQL database with built-in function.
 
 To do so, just run the following command:
 ```
