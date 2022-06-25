@@ -46,4 +46,12 @@ To do so, just run the following command:
 ```
 python3 build_database.py
 ```
+## Start Application
+To start using this application, simply use the following command:
+```
+python3 interface.py
+```
 
+Then, follow the instructions in the standard output.
+
+Your query results might be printed in standard output or visualized with graphs. If a graph is generated, you'll see it under the "results" directory.
